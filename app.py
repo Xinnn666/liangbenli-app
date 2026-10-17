@@ -118,4 +118,4 @@ fig.add_vline(x=volume, line_dash="dot", line_color="blue", annotation_text=f"�
 fig.update_layout(xaxis_title="销售量（件）", yaxis_title="金额（元）", hovermode="x unified", height=420)
 st.plotly_chart(fig, use_container_width=True)
 
-st.caption("量本利决策智能体 · 课程作业演示用途")
+st.caption("量本利决策智能体")
